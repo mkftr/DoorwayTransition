@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF62168145BE2F700F181E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF62167145BE2F700F181E9 /* UIKit.framework */; };
+		BEF6216A145BE2F700F181E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF62169145BE2F700F181E9 /* Foundation.framework */; };
+		BEF6216C145BE2F700F181E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF6216B145BE2F700F181E9 /* CoreGraphics.framework */; };
+		BEF62172145BE2F700F181E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF62170145BE2F700F181E9 /* InfoPlist.strings */; };
+		BEF62174145BE2F700F181E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF62173145BE2F700F181E9 /* main.m */; };
+		BEF62178145BE2F700F181E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF62177145BE2F700F181E9 /* AppDelegate.m */; };
+		BEF6217B145BE2F700F181E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6217A145BE2F700F181E9 /* ViewController.m */; };
+		BEF6217E145BE2F700F181E9 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF6217C145BE2F700F181E9 /* ViewController_iPhone.xib */; };
+		BEF62181145BE2F700F181E9 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF6217F145BE2F700F181E9 /* ViewController_iPad.xib */; };
+		BEF62188145BE65C00F181E9 /* DoorPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF62187145BE65C00F181E9 /* DoorPicture.png */; };
+		BEF6218B145BE85700F181E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF62189145BE84E00F181E9 /* QuartzCore.framework */; };
+		BEF6218E145D593400F181E9 /* MFDoorwayTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6218D145D593400F181E9 /* MFDoorwayTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF62163145BE2F700F181E9 /* DoorwayTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorwayTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF62167145BE2F700F181E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEF62169145BE2F700F181E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEF6216B145BE2F700F181E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEF6216F145BE2F700F181E9 /* DoorwayTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoorwayTransition-Info.plist"; sourceTree = "<group>"; };
+		BEF62171145BE2F700F181E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEF62173145BE2F700F181E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF62175145BE2F700F181E9 /* DoorwayTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoorwayTransition-Prefix.pch"; sourceTree = "<group>"; };
+		BEF62176145BE2F700F181E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEF62177145BE2F700F181E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF62179145BE2F700F181E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEF6217A145BE2F700F181E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEF6217D145BE2F700F181E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		BEF62180145BE2F700F181E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		BEF62187145BE65C00F181E9 /* DoorPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoorPicture.png; sourceTree = "<group>"; };
+		BEF62189145BE84E00F181E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BEF6218C145D593400F181E9 /* MFDoorwayTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDoorwayTransition.h; sourceTree = "<group>"; };
+		BEF6218D145D593400F181E9 /* MFDoorwayTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDoorwayTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF62160145BE2F700F181E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF62168145BE2F700F181E9 /* UIKit.framework in Frameworks */,
+				BEF6218B145BE85700F181E9 /* QuartzCore.framework in Frameworks */,
+				BEF6216A145BE2F700F181E9 /* Foundation.framework in Frameworks */,
+				BEF6216C145BE2F700F181E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF62158145BE2F700F181E9 = {
+			isa = PBXGroup;
+			children = (
+				BEF6216D145BE2F700F181E9 /* DoorwayTransition */,
+				BEF62166145BE2F700F181E9 /* Frameworks */,
+				BEF62164145BE2F700F181E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF62164145BE2F700F181E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF62163145BE2F700F181E9 /* DoorwayTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF62166145BE2F700F181E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF62189145BE84E00F181E9 /* QuartzCore.framework */,
+				BEF62167145BE2F700F181E9 /* UIKit.framework */,
+				BEF62169145BE2F700F181E9 /* Foundation.framework */,
+				BEF6216B145BE2F700F181E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF6216D145BE2F700F181E9 /* DoorwayTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BEF62176145BE2F700F181E9 /* AppDelegate.h */,
+				BEF62177145BE2F700F181E9 /* AppDelegate.m */,
+				BEF62179145BE2F700F181E9 /* ViewController.h */,
+				BEF6217A145BE2F700F181E9 /* ViewController.m */,
+				BEF6217C145BE2F700F181E9 /* ViewController_iPhone.xib */,
+				BEF6217F145BE2F700F181E9 /* ViewController_iPad.xib */,
+				BEF6216E145BE2F700F181E9 /* Supporting Files */,
+				BEF6218C145D593400F181E9 /* MFDoorwayTransition.h */,
+				BEF6218D145D593400F181E9 /* MFDoorwayTransition.m */,
+			);
+			path = DoorwayTransition;
+			sourceTree = "<group>";
+		};
+		BEF6216E145BE2F700F181E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF62187145BE65C00F181E9 /* DoorPicture.png */,
+				BEF6216F145BE2F700F181E9 /* DoorwayTransition-Info.plist */,
+				BEF62170145BE2F700F181E9 /* InfoPlist.strings */,
+				BEF62173145BE2F700F181E9 /* main.m */,
+				BEF62175145BE2F700F181E9 /* DoorwayTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF62162145BE2F700F181E9 /* DoorwayTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF62184145BE2F700F181E9 /* Build configuration list for PBXNativeTarget "DoorwayTransition" */;
+			buildPhases = (
+				BEF6215F145BE2F700F181E9 /* Sources */,
+				BEF62160145BE2F700F181E9 /* Frameworks */,
+				BEF62161145BE2F700F181E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorwayTransition;
+			productName = DoorwayTransition;
+			productReference = BEF62163145BE2F700F181E9 /* DoorwayTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF6215A145BE2F700F181E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BEF6215D145BE2F700F181E9 /* Build configuration list for PBXProject "DoorwayTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEF62158145BE2F700F181E9;
+			productRefGroup = BEF62164145BE2F700F181E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF62162145BE2F700F181E9 /* DoorwayTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF62161145BE2F700F181E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF62172145BE2F700F181E9 /* InfoPlist.strings in Resources */,
+				BEF6217E145BE2F700F181E9 /* ViewController_iPhone.xib in Resources */,
+				BEF62181145BE2F700F181E9 /* ViewController_iPad.xib in Resources */,
+				BEF62188145BE65C00F181E9 /* DoorPicture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF6215F145BE2F700F181E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF62174145BE2F700F181E9 /* main.m in Sources */,
+				BEF62178145BE2F700F181E9 /* AppDelegate.m in Sources */,
+				BEF6217B145BE2F700F181E9 /* ViewController.m in Sources */,
+				BEF6218E145D593400F181E9 /* MFDoorwayTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF62170145BE2F700F181E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF62171145BE2F700F181E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEF6217C145BE2F700F181E9 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF6217D145BE2F700F181E9 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BEF6217F145BE2F700F181E9 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF62180145BE2F700F181E9 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF62182145BE2F700F181E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF62183145BE2F700F181E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF62185145BE2F700F181E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoorwayTransition/DoorwayTransition-Prefix.pch";
+				INFOPLIST_FILE = "DoorwayTransition/DoorwayTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEF62186145BE2F700F181E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoorwayTransition/DoorwayTransition-Prefix.pch";
+				INFOPLIST_FILE = "DoorwayTransition/DoorwayTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF6215D145BE2F700F181E9 /* Build configuration list for PBXProject "DoorwayTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF62182145BE2F700F181E9 /* Debug */,
+				BEF62183145BE2F700F181E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF62184145BE2F700F181E9 /* Build configuration list for PBXNativeTarget "DoorwayTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF62185145BE2F700F181E9 /* Debug */,
+				BEF62186145BE2F700F181E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF6215A145BE2F700F181E9 /* Project object */;
+}

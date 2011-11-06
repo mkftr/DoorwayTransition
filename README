@@ -1,0 +1,15 @@
+Doorway Transition
+https://github.com/mkftr/DoorwayTransition
+
+All I wrote for this effect is "MFDoorwayTransition" class. 
+You can apply this effect easily in between two views like below : 
+
+********************************************************************************
+MFDoorwayTransition *transition = [[MFDoorwayTransition alloc] 
+                                        initWithBaseView:self.view 
+                                               firstView:self.currentView 
+                                                lastView:self.nextView];
+[transition buildAnimation];
+[transition release];
+********************************************************************************
+
