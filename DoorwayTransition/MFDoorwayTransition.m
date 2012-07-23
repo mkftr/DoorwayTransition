@@ -102,9 +102,9 @@ CGFloat degreeToRadian(CGFloat degree)
     // Next view image
     self.nextViewLayer.contents = (id)[MFDoorwayTransition clipImageFromLayer:self.nextView.layer size:screenSize offsetX:0.0f];
     
-    [self.view.layer addSublayer:self.nextViewLayer];
     [self.view.layer addSublayer:self.doorLayerLeft];
     [self.view.layer addSublayer:self.doorLayerRight];
+    [self.view.layer addSublayer:self.nextViewLayer];
     
     CAAnimation *leftDoorAnimation = [self openDoorAnimationWithRotationDegree:90.0f];
     leftDoorAnimation.delegate = self;
